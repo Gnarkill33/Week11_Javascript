@@ -1,0 +1,68 @@
+.wrap{
+    display:grid;
+    grid-template-rows: repeat(4, 150px);
+    grid-template-columns: repeat(3, 1fr);
+    border: solid black 2px;
+    padding:20px;
+    margin-bottom:10px;
+}
+
+.Potter{
+    grid-row: 1 / 2;
+    grid-column: 1 / 2; 
+    
+}
+.PotterPrice{
+    grid-row: 1 / 2;
+    grid-column: 3/ 4;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-content: center;
+}
+.Citizen{
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+}
+
+.CitizenPrice{
+    grid-row: 2 / 3;
+    grid-column: 3/ 4;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-content: center;
+
+}
+.Skyfall{
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+}
+
+.SkyfallPrice{
+    grid-row: 3 / 4;
+    grid-column: 3 / 4;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.Fields{
+    grid-row: 4 / 5;
+    grid-column: 1 / 2
+}
+
+.FieldsPrice{
+    grid-row: 4 / 5;
+    grid-column: 3 / 4;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.sum{
+    display:flex;
+    justify-content:space-between;
+}
