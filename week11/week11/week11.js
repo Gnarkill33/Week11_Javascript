@@ -348,7 +348,7 @@ document.querySelector('.b-24').onclick = makeTwentyFour;*/
 	elem25.setAttribute('data-info', 'Дополнительная информация');
 	const attribute = elem25.getAttribute('data-info');
 	const field = document.getElementById('infoOutput');
-	field.textContent = 'Добавленный атрибут: ' + attribute;
+	field.textContent = `Добавленный атрибут: ${attribute}`;
 
 	//2 шаг: Добавьте элементу, найденному в первом шаге, атрибут: ('data-info', 'Дополнительная информация');
 	//3 шаг: Запишите значение атрибута в переменную
@@ -356,7 +356,7 @@ document.querySelector('.b-24').onclick = makeTwentyFour;*/
 	//5 шаг: Добавьте в элемент 4 шага текстовое значение 3 шага. Например: переменная = 'Добавленный атрибут: ' + название переменной из 3 шага;
 }
 
-document.querySelector('.b-25').onclick = makeTwentyFive;*/
+document.querySelector('.b-25').onclick = makeTwentyFive;/*
 
 //************************************************************************************************************************************************
 
