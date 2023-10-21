@@ -1,0 +1,11 @@
+.checked {
+    text-decoration:line-through;
+}
+
+#taskList {
+list-style-type:none;
+}
+
+.list{
+text-align:center;
+}
