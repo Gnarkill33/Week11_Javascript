@@ -1,4 +1,6 @@
 .wrap{
+    width:45em;
+    height:37em;
     display:grid;
     grid-template-rows: repeat(4, 150px);
     grid-template-columns: repeat(3, 1fr);
@@ -63,6 +65,7 @@
 }
 
 .sum{
+    width:48em;
     display:flex;
     justify-content:space-between;
 }

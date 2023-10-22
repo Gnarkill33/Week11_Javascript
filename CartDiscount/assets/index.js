@@ -17,4 +17,4 @@ function getDiscount(){
     const discount = total - (total * 20 / 100);
     result.textContent = discount;
 }
-withDiscount.addEventListener('click', getDiscount)
+withDiscount.addEventListener('click', getDiscount);

@@ -16,8 +16,3 @@ taskList.addEventListener('click', function(evt) {
         evt.target.classList.toggle('checked');
     }   
 });
-
-
-сделать курсор Pointer 
-добавить hover
-разукрасить кнопку
